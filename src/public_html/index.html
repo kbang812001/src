@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Bootstrap Introduction</title>
+
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #banner_image{
+                padding-top: 75px;
+                padding-bottom: 50px;
+                text-align: center;
+                color: #f8f8f8;
+                background: url("images/bg1.jpg") no-repeat center;
+                background-size: cover;
+                margin-bottom: 5%;
+                    
+            }
+            #banner_content{
+                position: relative;
+                padding-bottom: 3%;
+                padding-top: 3%;
+                overflow: hidden;
+                margin-bottom: 12%;
+                margin-top: 12%;
+                margin-left: 20%;
+                margin-right: 20%;
+                background-color: rgba(0,0,0,0.7);
+                max-width: 660px;
+            }
+            footer{
+                padding: 10px 0;
+                background-color: #101010;
+                color: #9d9d9d;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.php">Shree Ruppam Contractors</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="settings.html"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="banner_image">
+            <div class="container">
+                <div id="banner_content">
+                    <img src="images/logo.png" height="150">
+                    <h2>Shree Ruppam Contractors</h2>
+                    <h4>G.S. Jodha Construction Company</h4>
+                    <a class="btn btn-danger btn-lg-active" href="product.html">VISIT NOW</a>  
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="product.html#plant" ><div class="thumbnail">
+                            <img src="images/plant.jpg" alt="" >
+                            <div class="caption">
+                                <h3 class="text-center">Plant</h3>
+                                <p class="text-center">Bitumeen Cement-Concrete Batehing Plant.</p>
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="product.html" ><div class="thumbnail">
+                            <img src="images/Site.jpg" alt="" >
+                            <div class="Site">
+                                <h3 class="text-center">Site</h3>
+                                <p class="text-center">Construction Sites.</p>
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="product.html#news" ><div class="thumbnail">
+                            <img src="images/News.jpg" alt="" >
+                            <div class="caption">
+                                <h3 class="text-center">News</h3>
+                                <p class="text-center">SRC in Headlines.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="container text-center">
+                Copyright &copy Shree Ruppam. All Rights Reserved | Contact Us: +9199280 44606.
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
